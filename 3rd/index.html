@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Unorder list -->
+    <ul>
+      <li>hola</li>
+      <li>hola2</li>
+    </ul>
+
+    <!-- Order list -->
+    <ol type="A">
+      <li>hola</li>
+      <li>hola2</li>
+    </ol>
+    <ol reversed>
+      <li>humus1</li>
+      <li>humus2</li>
+    </ol>
+
+    <!-- Table -->
+    <table border="4" style="width: 100%">
+      <!-- загаловок таблицы -->
+      <thead>
+        <!-- table row (ряды таблицы)-->
+        <tr>
+          <!--<th> наименование заголовков   -->
+          <th>Name</th>
+          <th>SecondName</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <!-- Данные в таблице -->
+      <tbody>
+        <tr>
+          <td>Tom</td>
+          <td>Tomson</td>
+          <td>28</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>Hury</td>
+          <td>28</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+
+    <!-- Чтобы обьединить ячейки в таблице (colspan (по горизонтали) and rowspan (по вертикали)) -->
+    <table border="4" style="width: 100%">
+      <thead>
+        <tr>
+          <th colspan="2">Name/SecondName</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">Tom Tomson</td>
+          <td rowspan="2">28</td>
+        </tr>
+        <tr>
+          <td>Bob</td>
+          <td>Hury</td>
+        </tr>
+      </tbody>
+    </table>
+    <br /><br />
+    <hr />
+
+    <!-- form для связки label+input -->
+    <form action="">
+      <p>
+        <label for="login"> login </label>
+        <input id="login" type="text" />
+      </p>
+      <p>
+        <label for="password"> password </label>
+        <input id="password" type="password" />
+      </p>
+    </form>
+    <br />
+
+    <!-- +прокачка input placeholder-->
+    <form action="">
+      <p>
+        <label for="login"> login </label>
+        <input placeholder="type login" id="login" type="text" />
+      </p>
+      <p>
+        <label for="password"> password </label>
+        <input placeholder="type password" id="password" type="password" />
+      </p>
+    </form>
+    <br />
+
+    <!-- fieldset with form +legend +disabled-->
+    <form action="">
+      <fieldset>
+        <legend>User secret data</legend>
+        <p>
+          <label for="login"> login </label>
+          <input placeholder="type login" id="login" type="text" />
+        </p>
+        <p>
+          <label for="password"> password </label>
+          <input
+            disabled
+            placeholder="type password"
+            id="password"
+            type="password"
+          />
+        </p>
+      </fieldset>
+      <p>
+        <textarea disabled cols="30" rows="10"></textarea>
+      </p>
+
+      <!-- checkbox -->
+      <p>
+        <label for="audi"> Audi </label>
+        <input type="checkbox" id="audi" value="car audi" />
+        <label for="bnw"> BMW </label>
+        <input type="checkbox" id="bmw" value="car bmw" />
+      </p>
+
+      <!-- Выбрать один с варинатов -->
+      <p>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male" />
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female" />
+      </p>
+
+      <!-- select принимает свои теги: option -->
+      <select>
+        <option value="front-end-skill-html">html</option>
+        <option value="front-end-skill-css">css</option>
+        <option value="front-end-skill-js">js</option>
+        <option value="back-end-skill-java">java</option>
+      </select>
+      <br /><br /><br />
+    </form>
+  </body>
+</html>
