@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(229, 229, 229);
+    padding: 100px;
+    margin: 0 auto;
+}
+
+.container-logo {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    background-color: #000000;
+    z-index: 1;
+}
+
+.position-logo {
+    position: absolute;
+    width: 309.72px;
+    height: 181.88px;
+    left: 19.73%;
+    right: 19.78%;
+    top: 25.12%;
+    bottom: 39.35%;
+}
+
+.position-flag {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    left: 42.19%;
+    right: 42.19%;
+    top: 66.99%;
+    bottom: 21.29%;
+    border-radius: 6px;
+    background: linear-gradient(180.00deg, rgb(33, 55, 252), rgb(33, 55, 251) 50.007%, rgb(255, 216, 75) 50.041%, rgb(255, 216, 75) 100%);
+}
+
+.container-square {
+    position: relative;
+    width: 512px;
+    height: 512px;
+    background-color: #FFCE22;
+    bottom: 117px;
+    left: 441px;
+    z-index: 3;
+}
+
+.position-blue-1 {
+    position: absolute;
+    width: 512px;
+    height: 271.5px;
+    bottom: 46.97%;
+}
+
+.position-glyph-1 {
+    position: absolute;
+    width: 400px;
+    height: 227.36px;
+    left: 10.99%;
+    right: 10.89%;
+    top: 28.3%;
+    bottom: 27.29%;
+}
+
+.container-cyrcle {
+    position: absolute;
+    width: 512px;
+    height: 512px;
+    background-color: #FFFFFF;
+    border-top: 2px solid #2137FC;
+    border-bottom: 2px solid #2137FC;
+    left: 927px;
+    top: 928px;
+    z-index: 2;
+}
+
+.cyrcle {
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    border-radius: 444px;
+    top: 34px;
+    left: 34px;
+    background-color: #FFCE22;
+}
+
+.position-blue-2 {
+    position: absolute;
+    width: 444px;
+    height: 233.5px;
+    right: 6.64%;
+    left: 0;
+}
+
+.position-glyph-2 {
+    position: absolute;
+    width: 358.44px;
+    height: 203.74px;
+    left: 45px;
+    right: 14.9%;
+    top: 48.8%;
+    bottom: 11.41%;
+}
