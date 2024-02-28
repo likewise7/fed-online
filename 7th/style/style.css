@@ -35,6 +35,10 @@ h1>strong {
     letter-spacing: -0.5px;
 }
 
+.select-developer {
+    overflow: auto;
+}
+
 .sub-title {
     width: 695px;
     height: 80px;
