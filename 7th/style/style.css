@@ -35,10 +35,6 @@ h1>strong {
     letter-spacing: -0.5px;
 }
 
-.select-developer {
-    overflow: auto;
-}
-
 .sub-title {
     width: 695px;
     height: 80px;
@@ -48,6 +44,7 @@ h1>strong {
     color: #2B292D;
     margin-bottom: 50px;
 }
+
 
 .user-card {
     width: 295px;
@@ -132,3 +129,7 @@ h1>strong {
 .user-card:hover {
     background-color: bisque;
 }
+
+/* .select-developer {
+    overflow: auto;
+} */
